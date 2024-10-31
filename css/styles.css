@@ -16,6 +16,7 @@ nav {
     align-items: center;
     padding: 20px;
     z-index: 10;
+    margin: 10px 30px;
 }
 
 a {
@@ -41,6 +42,7 @@ p {
 .navigation-link {
     margin: 10px;
     font-weight: 600;
+    padding: 10px;
 }
 
 .navigation-name {
@@ -53,6 +55,7 @@ p {
     grid-template: auto auto auto / 1fr 1fr;
     justify-items: center;
     align-items: center;
+    height: auto;
 }
 
 .grid-item {
@@ -73,6 +76,7 @@ p {
 }
 
 .introduction-name span {
+    display: inline-block;
     color: #e9bd64;
 }
 
