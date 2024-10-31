@@ -4,47 +4,86 @@
     <meta charset="UTF-8">
     <title>Marcin Urbańczyk</title>
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <meta name="keywords" content="Marcin, Urbańczyk, Portfolio">
     <meta name="author" content="Marcin Urbańczyk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<div class="video-background">
+    <video autoplay muted loop>
+        <source src="/images/background_vid.mp4" type="video/mp4">
+        Sorry your browser does not support the video tag.
+    </video>
+</div>
 <nav>
-    <h1>Marcin Urbańczyk</h1>
-    <ul class="navigation-elements">
-        <li class="navigation-element"><a href="">Home</a></li>
-        <li class="navigation-element"><a href="#introduction">About</a></li>
-        <li class="navigation-element"><a href="#skills">Skills</a></li>
-        <li class="navigation-element"><a href="#projects">Projects</a></li>
-        <li class="navigation-element"><a href="/contact.html">Contact</a></li>
+    <div class="navigation-name">MU.</div>
+    <ul class="navigation-links">
+        <li class="navigation-link"><a href="#introduction">About</a></li>
+        <li class="navigation-link"><a href="#projects">Projects</a></li>
+        <li class="navigation-link"><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 <main>
-    <section id="introduction">
-        <div class="introduction-container">
+    <div class="grid-container">
+        <section id="introduction" class="grid-item">
             <div class="introduction-text-container">
-                <h2>About Me</h2>
-                <p>Hello! I'm a budding Full Stack Web Developer, currently diving deep into JavaScript and the
-                    expansive world of web development. With a degree in Computer Science from the Cracow University of
+                <div class="introduction-name">Hello, I'm <span>Marcin</span></div>
+                <p> I'm a budding Full Stack Web Developer, currently diving deep into JavaScript and the
+                    expansive world of web development. With a degree in Computer Science from the Cracow University
+                    of
                     Technology, specifically from the Faculty of Electrical and Computer Engineering, I have a solid
                     foundation in both software and hardware.
                 </p>
-                <p>Outside of coding, I have a range of interests that keep me inspired. I’m an avid football fan, love
-                    getting lost in sci-fi novels, and enjoy the immersive worlds of video games. I also have a personal
-                    homelab where I experiment with smart home setups and explore network configurations. It’s both a
+                <p>Outside of coding, I have a range of interests that keep me inspired. I’m an avid football fan,
+                    love
+                    getting lost in sci-fi novels, and enjoy the immersive worlds of video games. I also have a
+                    personal
+                    homelab where I experiment with smart home setups and explore network configurations. It’s both
+                    a
                     hobby and a place to keep learning beyond the screen.</p>
                 <p>
                     Looking forward to seeing where this journey in web development will take me!
                 </p>
             </div>
-        </div>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-    </section>
+        </section>
+        <section id="projects" class="grid-item">
+            <div class="projects-text-container">
+                <span>My projects</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet fringilla nibh, eu dignissim
+                    massa. Phasellus mattis, sem a molestie blandit, lorem neque aliquam enim, sit amet luctus est orci
+                    vel
+                    nibh. Maecenas at lacinia enim. Donec tincidunt porta tortor ac egestas. Cras dictum faucibus
+                    interdum.
+                    Donec hendrerit egestas gravida. Pellentesque et nulla auctor, auctor turpis ut, cursus velit. Nulla
+                    vel
+                    nunc quam. Aenean at condimentum lacus. Donec eget orci nisl.
+
+                    In hac habitasse platea dictumst. Nam ultrices nisl a purus molestie, ac consectetur eros fringilla.
+                    Aliquam vitae dui consectetur, suscipit lacus vitae, pellentesque orci. Pellentesque vel nibh odio.
+                    Fusce quis enim vel metus pharetra scelerisque. Etiam risus erat, faucibus nec fringilla eget,
+                    elementum
+                    malesuada lacus. Phasellus quis condimentum leo, vel tincidunt tortor. Ut in nulla lacus. Ut
+                    consectetur, nunc ut ornare vestibulum, quam risus tristique justo, in luctus dolor nisl vel
+                    metus.</p>
+            </div>
+        </section>
+        <section id="contact" class="grid-item">
+            <span>Contact Me</span>
+            <div class="contact-links">
+                <a href="https://github.com/murbanczyk96" target="_blank"><img src="/images/github_logo.png"
+                                                                               alt="GitHub" width="72px" height="72px"></a>
+                <a href="https://linkedin.com/in/marcin-urba%C5%84czyk-a274b827b" target="_blank"><img
+                        src="/images/linkedin_logo.png"
+                        alt="LinkedIn" width="72px" height="72px"></a>
+                <a href="mailto:marcin.urbanczyk@protonmail.com"><img src="/images/mail_logo.png"
+                                                                      alt="Mail Me" width="72px" height="72px"></a>
+            </div>
+        </section>
+    </div>
 </main>
+<footer>
+
+</footer>
 </body>
 </html>
